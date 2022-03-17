@@ -15,7 +15,7 @@ import statsmodels.api as sm
 import statsmodels.tsa.stattools as smt
 import pymc3 as pm
 
-df = pd.read_csv("/Users/Documents/TMDU/COVID19/NHK_data/nhk_news_covid19_domestic_daily_data.csv")
+df = pd.read_csv("/Users/Documents/TMDU/COVID19/covid19_domestic_daily_data.csv")
 
 df = df.iloc[0:685]
 df.loc[684]
